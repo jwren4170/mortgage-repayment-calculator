@@ -1,4 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+input[type="text"].mortgage-amount {
+  background: linear-gradient(
+    to right,
+    hsl(202, 86%, 94%) 35px,
+    hsl(0, 0%, 100%) 35px 100%
+  );
+}
+
+input[type="text"] {
+  background: linear-gradient(
+    to left,
+    hsl(202, 86%, 94%) 35px,
+    hsl(0, 0%, 100%) 35px 100%
+  );
+}
